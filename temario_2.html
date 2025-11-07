@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Arquitectura y Redes II</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/carousel.rtl.css">
+    <link rel="stylesheet" href="css/footers.css">
+    <link rel="stylesheet" href="css/css.css">
+    <style>
+        .titulos{
+            font-size: 200px;
+        }
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        
+        
+
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+
+        .titulos{
+            font-size: 200px;
+        }
+      </style>
+  
+      
+      <!-- Custom styles for this template -->
+      <link href="carousel.css" rel="stylesheet">
+ 
+    </head>
+<body>
+        
+  <header id="inicio">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+           <button class="btn"><a href="#inicio">Ir al inicio</a></button>
+           <button class="btn"><a href="index.html">Contenido</a></button>
+           <button class="btn"><a href="#final">Ir al final</a></button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>          
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <img src="" alt="">
+            <li class="nav-item">
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="footer"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Escriba aquí..." aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<main >
+
+ <div class="container marketing">
+  <hr class="featurette-divider">
+  <h1 class="text-dark text-center mb-5" style="font-size: 60px;">Sistemas Operativos</h1>
+  <div class="row featurette mt-3">
+<div class="col-md-5">
+<img src="img/sistemas_operativos.jpg" alt=""  width="500px" height="300px">
+</div>
+<div class="col-md-7">
+  <h3 class="text-dark text-center" style="font-size: 35px;">¿Qué es un Sistema Operativo?</h3>
+<ul class="text-dark mt-2" style="font-size: 25px; text-align: justify;">
+<li class="text-dark" style="font-size: 25px; text-align: justify;">Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software, ejecutándose en modo privilegiado respecto de los restantes (aunque puede que parte de él se ejecute en espacio de usuario).
+</li>
+<li class="text-dark" style="font-size: 25px; text-align: justify;">Conjunto de programas y herramientas que permiten la gestión y el control de los recursos de un ordenador, como el procesamiento, la memori, el almacenamiento y los dispositivos periféricos. Además, es el responsible de proporcionar una interfaz para que los usuarios interactúen con el hardware y los progarmas de software instalados en el equipo.
+</li>
+</ul>
+</div>
+  </div>
+
+  <hr class="featurette-divider">
+  <div class="row featurette">
+  <h3 class="text-dark text-center mb-4" style="font-size: 35px;">Principales Etapas en la Evolución de los SO</h3>  
+  <div class="text-dark col-md-4" style="font-size: 25px;">
+<h3 class="text-dark" style="background: rgba(65, 206, 65, 0.637);">1. Monolíticos
+</h3>
+<p class="text-dark" style="font-size: 25px; text-align: justify;">Esto significa que todo el SO se ejecutaba en modo kernel. EJ de etos sistemas son: MS-DOS y UNIX.
+</p>
+
+<h3 class="text-dark" style="background: rgba(180, 27, 27, 0.74);">4. De Tiempo Real</h3>
+<p class="text-dark" style="font-size: 25px; text-align: justify;">Se utilizan en aplicaciones que requieren una respuesta inmediata y predecible. Se utilizan a menudo en SO de control industrial y military. Ej: QNX y VxWorks.
+</p>
+
+  </div>
+  <div class="text-dark col-md-4" style="font-size: 25px;">
+    <h3 class="text-dark" style="background: rgba(172, 255, 47, 0.685);">2. En Capas</h3>
+    <p class="text-dark" style="font-size: 25px; text-align: justify;">Se desarrollaron para mejorar la eficiencia y la flexibilidad. Ej: VAX/VMS y el SO IBM OS/2,
+    </p>
+
+    <h3 class="text-dark  mt-5" style="background: rgba(81, 81, 209, 0.705);">5. Móviles</h3>
+<p class="text-dark" style="font-size: 25px; text-align: justify;">Estos se caracterizaban por su bajo consume de energía y su capacidad para ejecutar aplicaciones en una variedad de plataformas. Ej: Android de Google e iOS de Apple.
+</p>
+
+  </div>
+  <div class="text-dark col-md-4" style="font-size: 25px;">
+    <h3 class="text-dark" style="background: rgba(212, 89, 89, 0.582);">3. Distribuidos</h3>
+    <p class="text-dark" style="font-size: 25px; text-align: justify;"> Permiten que varios ordenadores trabajen juntos como si fueran uno solo. Ej: Sun Microsystems Solaris y Windows NT.
+    </p>
+
+    <h3 class="text-dark" style="background: rgba(223, 158, 38, 0.781);">6. Resúmen</h3>
+<p class="text-dark" style="font-size: 25px; text-align: justify;">La evolución de los SO ha estado impulsada por la necesidad de mejorar la eficiencia, la flexibilidad y la seguridad, así como por la aparición de las nuevas tecnologías y dispositivos.
+</p>
+  </div>
+  </div>
+<!--Evolucion de los SIstemas Operativos-->
+  <hr class="featurette-divider">
+  <div class="text-dark text-center">
+    <h3 class="text-dark text-center mb-4" style="font-size: 35px;">Evolución de los Sistemas Operativos</h3>
+    <img src="img/evolucion_so.png" width="100%" height="500px"> 
+
+  <hr class="featurette-divider">
+  <h3 class="text-dark text-center mb-4" style="font-size: 35px;">¿Cuáles son las funciones básicas atribuidas a un Sistema Operativo?</h3> 
+  <div class="row featurette">
+<div class="text-dark col-md-6">
+<ul class="text-dark">
+  <li class="text-dark" style="font-size: 25px; text-align: justify;">Gestión de los recursos de la máquina.
+  </li>
+  <li class="text-dark" style="font-size: 25px; text-align: justify;">Ejecución de servicios para los programas
+  </li>
+  <li class="text-dark" style="font-size: 25px; text-align: justify;">Ejecución de mandatos (comandos) de los usuarios.
+  </li>
+  <li class="text-dark" style="font-size: 25px; text-align: justify;">Gestión de procesos.
+  </li>
+  <li class="text-dark" style="font-size: 25px; text-align: justify;">Gestión de memoria.
+  </li>
+</ul>
+</div>
+<div class="text-dark col-md-6">
+  <ul class="text-dark">
+    <li class="text-dark" style="font-size: 25px; text-align: justify;">Gestión de la E/S (Entrada/Salida).
+    </li>
+    <li class="text-dark" style="font-size: 25px; text-align: justify;">Gestión de archivos y directorios.
+    </li>
+    <li class="text-dark" style="font-size: 25px; text-align: justify;">Comunicación y sincronización entre procesos.
+    </li>
+    <li class="text-dark" style="font-size: 25px; text-align: justify;">Seguridad y protección.
+    </li>
+  </ul>
+</div>
+  </div>
+                                       <!--Software libre-->
+  <hr class="featurette-divider">
+  <div class="row featurette">
+    <h3 class="text-dark text-center mb-4" style="font-size: 35px; margin-left: 50px;">¿Qué es el Software Libre?</h3> 
+    <div class="text-dark col-md-5">
+<img src="img/software_libre.jpg" width="500px" height="500px">
+    </div>
+
+    <div class="text-dark col-md-7">
+<p class="text-dark" style="font-size: 25px; text-align: justify; margin-left: 50px;">Se refiere a programas informáticos que se distribuyen con una licencia que permite a los usuarios acceder al codigo fuente, modificarlo y distribuirlo libremente. Esto significa que cualquier persona puede utilizar, estudiar, modificar y compartir el software sin restricciones ni costos adicionales.
+</p>
+<h3 class="text-dark text-center mb-4" style="font-size: 35px;">Características:</h3> 
+<ul class="text-dark" style="font-size: 25px; text-align: justify;">
+<li>Software de código abierto
+</li>
+<li>Software de licencia gratuita
+</li>
+<li>Acceso a programas libres
+</li>
+<li>Capacidad de soportar multiprogramación
+</li>
+<li>Su modelo coorporativo de producción en red
+</li>
+</ul>
+<p class="text-dark" style="font-size: 25px; text-align: justify;">Se distribuye sin restricciones en cuanto a su uso, distribución y modificación. Permite a los usuarios tener control total sobre el software que utilizan. Permite modificar y mejorar el software según sus necesidades. Es gratuito y está disponible para cualquiera que quiera utilizarlo.
+</p>
+    </div>
+</div>
+</div>
+
+<!--SOFTWARE PROPIETARIO-->
+
+<hr class="featurette-divider">
+<div class="row featurette">
+  <h3 class="text-dark text-center mb-4" style="font-size: 35px;">¿Qué es el Software Propietario?</h3> 
+<div class="text-dar col-md-4">
+<img src="img/software_prop1.png" class="mb-4" width="380px" height="250px">
+</div>
+<div class="text-dar col-md-8">
+<p class="text-dark" style="font-size: 25px; text-align: justify;">Se denomina software propietario, o privativo, al software del cual no existe una forma libre de acceso a su código fuente, el cual solo se encuentra a disposición de su desarrollador y no se permite su libre modificación, adaptación o incluso lectura por parte de terceros. El término ha sido creado para designar al antónimo del concepto de software libre, por lo cual en diversos sectores se le han asignado implicaciones políticas relativas al mismo. Para la Fundación para el Software Libre (FSF), este concepto se aplica a cualquier programa informático que no es libre o que solo lo es parcialmente (semilibre), sea porque su uso, redistribución o modificación está prohibida, o sea porque requiere permiso expreso del titular del software.
+</p>
+</div>
+
+<div class="text-dar col-md-8">
+  <p class="text-dark" style="font-size: 25px; text-align: justify;">La persona física o jurídica (compañía, corporación, fundación, etc.), al poseer los derechos de autor sobre un software, tiene la posibilidad de controlar y restringir los derechos del usuario sobre su programa, lo que en el software no libre implica por lo general que el usuario solo tendrá derecho a ejecutar el software bajo ciertas condiciones, comúnmente fijadas por el proveedor, que signifique la restricción de una o varias de las cuatro libertades.
+  </p>
+</div>
+<div class="text-dar col-md-4">
+  <img src="img/software_prop2.webp" width="380px" height="250px">
+</div>
+
+<div class="text-dar col-md-4">
+  <img src="img/software_prop3.webp" width="400px" height="200px">
+</div>
+<div class="text-dar col-md-8">
+  <p class="text-dark" style="font-size: 25px; text-align: justify; margin-left: 50px;">Se distribuye con restricciones en cuanto a su uso, distribución y modificación. Limita las opciones de los usuarios. No permite la modificación sin permiso del propietario del software. Requiere una licencia y a menudo es costoso.
+  </p>
+</div>
+</div>
+
+          <!--Comparar SO-->
+<hr class="featurette-divider">
+<div class="row featurette">
+  <h3 class="text-dark text-center mb-4" style="font-size: 35px;">¿Qué aspectos podemos tener en cuenta para comparar los Sistemas Operativos?</h3> 
+  <ul class="text-dark" style="font-size: 25px; text-align: justify;">
+<li>Disponibilidad de software
+</li>
+<li>Disponibilidad de software
+</li>
+<li>Facilidades para instalar aplicaciones
+</li>
+<li>Detección de hardware y nuevos dispositivos
+</li>
+<li>Distribuciones Live CD(estas distribuciones son capaces de arrancar desde el CD-ROM sin requerir instalación alguna)</li>
+<li>Ciclo de desarrollo
+</li>
+<li>Sistema de ficheros
+</li>
+  </ul>
+
+</div>
+
+<!--Windows vs Linux-->
+
+<hr class="featurette-divider">
+<div class="row featurette">
+  <img src="img/windows_vs_linux.png" width="100%" height="300px">
+
+<div class="text-dark col-md-6" style="font-size: 25px; text-align: justify;">
+  <h3 class="text-dark text-center mb-4" style="font-size: 35px;">Windows</h3> 
+  <ul class="text-dark" style="font-size: 25px; text-align: justify;">
+    <li><b>ALta compatibilidad</b> con softwarey hardware a precio económico</li>
+    <li><b>88.14%</b> del mercado</li>
+    <li><b>Basado en MS-DOS</b></li>
+    <li><b>Lanzado en 1985</b></li>
+    <li>Es preferido por el <b>público en general</b></li>
+    <li><b>Es el líder en</b> videojuegos y software de oficina.</li>
+  </ul>
+</div>
+<div class="text-dark col-md-6" style="font-size: 25px; text-align: justify;">
+  <h3 class="text-dark text-center mb-4" style="font-size: 35px;">Linux</h3>
+  <ul class="text-dark" style="font-size: 25px; text-align: justify;">
+    <li>Es<b> Open Source</b> y tiene sabores para todos los gustos (distribuciones)</li>
+    <li><b>1.89%</b> del mercado</li>
+    <li><b>Basado en UNIX</b></li>
+    <li><b>Lanzado en 1992</b></li>
+    <li>Es preferido por <b>desarrolladores</b></li>
+    <li><b>Es el líder en</b> servidores y supercomputadoras</li>
+  </ul> 
+</div>
+</div>
+
+<!--FIGURAS RELEVANTES-->
+
+<hr class="featurette-divider">
+<div class="row featurette">
+  <h3 class="text-dark text-center mb-4" style="font-size: 35px;">Figuras relevantes</h3>
+
+  <div class="text-dark col-md-3 text-center">
+<img src="img/bill_gate.jpg" width="200px" height="200px">
+<h3 class="text-dark text-center mb-4">Bill Gate</h3>
+<p class="text-dark" style="font-size: 25px; text-align: justify;">William Henry Gates III (Seattle, Washington; 28 de octubre de 1955), es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen. Fue uno de los principales empresarios de la revolución de las microcomputadoras de las décadas de 1970 y 1980. .
+</p>
+  </div>
+  <div class="text-dark col-md-3 text-center">
+    <img src="img/linus-trovalds.jpg" width="200px" height="200px">
+    <h3 class="text-dark text-center mb-4">Linus Torvalds
+    </h3>
+    <p class="text-dark" style="font-size: 25px; text-align: justify;">Linus Benedict Torvalds (Helsinki, Finlandia, 28 de diciembre de 1969​) es un ingeniero de software finlandés-estadounidense,​ conocido por iniciar y mantener el desarrollo del kernel (en español, núcleo) Linux, basándose en el sistema operativo libre Minix…
+    </p>
+  </div>
+  <div class="text-dark col-md-3 text-center">
+    <img src="img/steve-jobs.jpg" width="200px" height="200px">
+    <h3 class="text-dark text-center mb-4">Steve Jobs
+    </h3>
+    <p class="text-dark" style="font-size: 25px; text-align: justify;">Steven Paul Jobs (San Francisco, 24 de febrero de 1955-Palo Alto, 5 de octubre de 2011)​ fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple12​ y máximo accionista individual de The Walt Disney Company</p>
+  </div>
+  <div class="text-dark col-md-3 text-center">
+    <img src="img/richard_stallman.jpg" width="200px" height="200px">
+    <h3 class="text-dark text-center mb-4">Richard Stallman
+    </h3>
+    <p class="text-dark" style="font-size: 25px; text-align: justify;">Richard Matthew Stallman (Manhattan, Nueva York; 16 de marzo de 1953), es un físico, programador estadounidense, activista y fundador del movimiento del software libre, del sistema operativo GNU y de la Free Software Foundation (Fundación para el Software Libre). 
+    </p>
+  </div>
+</div>
+
+    <!--Distribuciones GNU Linux-->
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <h3 class="text-dark text-center mb-4" style="font-size: 35px;">Distribuciones GNU Linux
+      </h3>
+      <div class="text-dark col-md-5">
+        <img class="mt-5" src="img/gnu_linux.webp" width="500px" height="400px">
+      </div>
+      <div class="text-dark col-md-7">
+        <h3 class="text-dark text-center mb-4">¿Qué es una distribución?
+        </h3>
+        <p class="text-dark" style="font-size: 25px; text-align: justify;">Una distribución Linux, o distribución GNU/Linux (distro) es un conjunto de aplicaciones reunidas en un paquete (repositorio) que permiten brindar mejoras para instalar fácilmente un sistema Linux, se destacan por las herramientas para configuración y sistemas de paquetes de software a instalar. Las distribuciones Linux son sistemas operativos basados en el kernel de Linux y que incluyen una serie de programas y herramientas para su uso diario. Estas distribuciones son software libre, lo que significa que su código fuente está disponible para que los usuarios puedan estudiarlo, modificarlo y distribuirlo libremente. Existen muchas distribuciones Linux diferentes, cada una con sus propias características y enfoques. Cada distribución tiene sus propias ventajas y desventajas, y la elección de una distribución dependerá de las necesidades y preferencias del usuario. Algunas distribuciones están diseñadas para ser fáciles de usar para los principiantes, mientras que otras están enfocadas en la seguridad o en el rendimiento.
+
+        </p>
+      </div>
+      <hr class="featurette-divider">
+      <h3 class="text-dark text-center mt-3 mb-4" style="font-size: 35px;">Clasificación de las Distribuciones
+      </h3>
+
+      <div class="text-dark col-md-7">
+        
+      <h3 class="text-dark text-center mt-3 mb-4">Básica:
+      </h3>
+<p class="text-dark" style="font-size: 25px; text-align: justify;">Conjunto de programas y herramientas que conforman el Sistema Operativo GNU/Linux en su forma más básica. Esto incluye el kernel de Linux, el intérprete de comandos (shell), los utilitarios básicos de línea de commandos y las bibliotecas esenciales.
+</p>
+      </div>
+
+      <div class="text-dark col-md-5">
+<img src="img/distribucion_basica.jpg" width="500px" height="200px">
+      </div>
+
+
+
+      <div class="text-dark col-md-5">
+<img src="img/distribucion_derivada.png" width="500px" height="200px">
+      </div>
+
+      <div class="text-dark col-md-7">
+        <h3 class="text-dark text-center mt-3 mb-4">Derivada:
+        </h3>
+        <p class="text-dark" style="font-size: 25px; text-align: justify; margin-left: 50px;">Son aquellas que se basan en la distribución básica, pero que incluyen software adicional y configuraciones específicas para satisfacer las necesidades de un grupo particular de usuarios.
+        </p>
+      </div>
+      <hr class="featurette-divider">
+<img src="img/distribuciones.jpg" width="100%" height="400px">
+    </div>
+
+<!--Formas de dirtibuciones-->
+
+<hr class="featurette-divider">
+<div class="row featurette">
+  <h3 class="text-dark text-center mt-3 mb-4" style="font-size: 35px; background:rgba(108, 108, 197, 0.808);" >Fases de instalación de un Sistema Operativo:
+  </h3>
+  <ol class="text-dark" style="font-size: 25px; text-align: justify;">
+    <li>Preparar el equipo para arrancar desde CD/DVD o USB.</li>
+    <li>Preparación del Disco Duro.</li>
+    <li>Ejecutar el programa de instalación.</li>
+    <li>Proporcionar el nombre y contraseña del usuario que será administrador del sistema.</li>
+    <li>Seleccionar los componentes software opcionales que queremos instalar.</li>
+    <li>Ajustar los parámetros de la red.</li>
+    <li>Instalar el gestor de arranque.</li>
+    <li>Realizar las actualizaciones de seguridad.</li>
+    <li>Instalar los plugins del navegador.</li>
+    <li>Instalar los Drivers necesarios para los dispositivos no reconocidos en la instalción.</li>
+  </ol>
+
+</div>
+<p class=" text-center" style="font-size: 30px; text-align: center; color: rgba(112, 112, 180, 0.904);" >"Conocer la evolución y desarrollo de la informática es fundamental para estar al día en un mundo cada vez más digitalizado y tecnológico."</p>
+
+ <br><br><br>
+    <!-- /END THE FEATURETTES -->
+  
+      <div id="contenido" class="row">
+        <div class="col-lg-4">
+          <img src="img/unidad1.jpg"  width="200" height="200" style="border-radius: 100px;">
+  
+          <h2>Unidad 1</h2>
+          
+          <p><a class="btn btn-outline-primary" href="temario_1.html">Ver Contenido&raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/so_all.jpg"  width="200" height="200" style="border-radius: 100px;">
+  
+          <h2>Unidad 2</h2>
+          
+          <p><a class="btn btn-outline-primary" href="temario_2.html">Ver Contenido &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/unidad3.jpeg"  width="200" height="200" style="border-radius: 100px;">
+
+          <h2>Unidad 3</h2>
+          
+          <p><a class="btn btn-outline-primary" href="temario_3.html">Ver Contenido &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/unidad4.jpg"  width="200" height="200" style="border-radius: 100px;">
+          
+          <h2>Unidad 4</h2>
+          
+          <p><a class="btn btn-outline-primary" href="temario_4.html">Ver Contenido&raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/unidad5.jpg"  width="200" height="200" style="border-radius: 100px;">
+  
+          <h2>Unidad 5</h2>
+          
+          <p><a class="btn btn-outline-primary" href="temario_5.html">Ver Contenido&raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+
+          <img src="img/unidad6.jpg"  width="200" height="200" style="border-radius: 100px;">
+  
+          <h2>Unidad 6</h2>
+          
+          <p><a class="btn btn-outline-primary" href="temario_6.html">Ver Contenido&raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+         
+
+          
+        
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+
+</div> 
+</main>
+<div id="final" class="container">
+  <footer class="py-3 my-4 text-dark">
+    <p class="text-center text-muted"><b>&copy;</b> <b>CP Fernando Aguado y Rico 2025. Todos los derechos reservados</b></p>
+  </footer>
+</div>
+    
+    
+        <script src="js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+  </html>
